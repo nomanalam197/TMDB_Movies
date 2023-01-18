@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.Big-Box{
+    padding: 2vw;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(233, 150, 122, 0.817);
+    z-index: 10;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+i{
+    position: absolute;
+    right: 2.5%;
+    top: 3%;
+    font-size: 2vw;
+    /* background-color: yellowgreen; */
+}

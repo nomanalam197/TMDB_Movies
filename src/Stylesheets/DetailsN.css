@@ -1,0 +1,75 @@
+.Details {
+ 
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .blackCover {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.808);
+  }
+  .mainText {
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .backgroundImg {
+    height: 100%;
+    width: 100%;
+  }
+  .poster {
+    display: flex;
+  }
+  .textDivv {
+      position: relative;
+    background-color: rgba(255, 0, 0, 0);
+    width: 100%;
+    padding: 20px;
+    color: white;
+  }
+  .textDivv h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  .shortD {
+    color: white;
+  }
+  .shortDD {
+    color: rgba(255, 255, 255, 0.466);
+    font-style: italic;
+    font-size: large;
+  }
+  
+  @media screen and (max-width: 664px) {
+    .poster {
+      display: initial;
+    }
+    .poster img {
+      height: 500px;
+    }
+    #firstImageDiv {
+      display: flex;
+      justify-content:center;
+    }
+    .poster h1{
+      font-size: 25px;
+    }
+    
+    .Details {
+   
+      position: relative;
+      width: 100%;
+      height: 160vh;
+      overflow: hidden;
+    }
+  }
+  

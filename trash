@@ -1,0 +1,11 @@
+    <div className='App'>
+    {/* <Nav></Nav>
+    <Slider></Slider>
+    <Popular></Popular>
+    <Trending></Trending>
+    <Box></Box> */}
+
+{/* <BrowserRouter> */}
+
+  {/* </BrowserRouter> */}
+    </div>

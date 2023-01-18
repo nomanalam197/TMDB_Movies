@@ -1,0 +1,28 @@
+
+.carousel-inner{
+    height: 30vmax !important;
+    object-fit: cover;
+}
+.textDiv{
+    padding: 40px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    background-color:rgba(33, 37, 41, 0.443);
+    width: 100%;
+    height: 30vmax !important;
+}
+.textDiv h1{
+    font-size: 6vmax;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    height: 3vmax;
+    width: 95%;
+    background-color: white;
+    margin-top: 9vmax;
+    border-radius: 20px;
+    
+}

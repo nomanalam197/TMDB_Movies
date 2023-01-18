@@ -1,0 +1,15 @@
+.nav{
+    padding: 30px;
+    padding-top: 20px;
+    width: 100vw;
+    min-height: 70px;
+    background-color: rgb(3,37,65);
+    font-size: large;
+}
+.Logo{
+    height: 21px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
